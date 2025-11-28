@@ -134,6 +134,39 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
+/* Hero Image */
+.hero-image {
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards 0.1s;
+}
+
+.hero-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 3px solid var(--gold-dark);
+    box-shadow: 0 0 60px rgba(201, 162, 39, 0.3),
+                0 0 100px rgba(0, 0, 0, 0.8);
+}
+
+/* Chapter Images */
+.chapter-image {
+    margin: 2rem auto 3rem;
+    text-align: center;
+}
+
+.chapter-image img {
+    max-width: 100%;
+    max-height: 500px;
+    width: auto;
+    border-radius: 4px;
+    border: 1px solid var(--gold-dark);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+}
+
 /* Table of Contents */
 .toc {
     background: var(--bg-dark);
