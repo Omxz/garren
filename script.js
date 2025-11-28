@@ -84,7 +84,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Console signature
 console.log(`
 %c◆ GARRAN VALE ◆
-%cShadow Monk of Véradis
+%cWarrior of Shadows • Véradis
 
 "Den som reser sig igen efter slaget får leva en dag till."
 `, 
