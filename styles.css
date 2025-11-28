@@ -422,6 +422,57 @@ blockquote p:last-child {
     color: var(--crimson-light);
 }
 
+/* Item blocks */
+.item-block {
+    padding: 1.5rem;
+    border-radius: 4px;
+    background: linear-gradient(135deg, rgba(40, 35, 20, 0.4) 0%, rgba(25, 22, 15, 0.4) 100%);
+    border: 1px solid var(--gold-dark);
+}
+
+.item-block h4 {
+    font-size: 1.1rem;
+    color: var(--gold-light);
+    margin-bottom: 0.25rem;
+}
+
+.item-type {
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--gold) !important;
+    margin-bottom: 1rem !important;
+}
+
+.item-description {
+    margin-bottom: 1rem !important;
+}
+
+.item-properties {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-properties li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--text-secondary);
+}
+
+.item-properties li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    color: var(--gold-dark);
+    font-size: 0.6rem;
+    top: 0.75rem;
+}
+
+.item-properties strong {
+    color: var(--text-primary);
+}
+
 /* Footer */
 .story-footer {
     background: var(--bg-dark);
